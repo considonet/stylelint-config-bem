@@ -1,0 +1,26 @@
+{
+  "name": "@considonet/stylelint-config-bem",
+  "version": "0.1.0",
+  "description": "Default stylelint ruleset for BEM methodology stylesheets in ConsidoNet projects",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/considonet/stylelint-config-bem.git"
+  },
+  "keywords": [
+    "stylelint",
+    "bem"
+  ],
+  "author": "Paweł Gabryelewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/considonet/stylelint-config-bem/issues"
+  },
+  "homepage": "https://github.com/considonet/stylelint-config-bem#readme",
+  "dependencies": {
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  }
+}
