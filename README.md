@@ -1,16 +1,16 @@
 # @considonet/stylelint-config-bem
 
-> Default main stylelint ruleset for ConsidoNet projects
-
-## What is this?
-
-Default [`stylelint`](https://github.com/stylelint/stylelint) ruleset for BEM methodology-based stylesheets in ConsidoNet projects. Built upon [`stylelint-selector-bem-pattern`](https://github.com/simonsmith/stylelint-selector-bem-pattern).
+> Default [`stylelint`](https://github.com/stylelint/stylelint) ruleset for BEM methodology-based stylesheets in ConsidoNet projects.
 
 ## Rules
 
+This config is built upon [`stylelint-selector-bem-pattern`](https://github.com/simonsmith/stylelint-selector-bem-pattern).
+
+After some tweaks the following rules are applied:
+
 * [Two Dashes style](https://en.bem.info/methodology/naming-convention/#two-dashes-style) naming scheme -
   `block__element--modifier`.
-* Optional [namespaced naming scheme](https://medium.com/@wenukagtx/bem-namespaces-81a5868e725c) supported - `c-block__element--modifier`  
+* Optional (and recommended for Considonet projects) [namespaced naming scheme](https://medium.com/@wenukagtx/bem-namespaces-81a5868e725c) supported - `c-block__element--modifier`  
 * One block (component) per one file (except utilities)
 * Block names consistent with filenames (minus extension, optional namespace and optional `_` filename prefix for Sass/SCSS).
 * `svg` and `img` can be styled by tag name.
