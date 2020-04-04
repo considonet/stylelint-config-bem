@@ -1,6 +1,6 @@
 {
   "name": "@considonet/stylelint-config-bem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default stylelint ruleset for BEM methodology stylesheets in ConsidoNet projects",
   "main": "./lib/index.js",
   "repository": {
